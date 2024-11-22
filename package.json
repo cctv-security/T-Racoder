@@ -10,7 +10,6 @@
   "keywords": [
     "termux",
     "whatsapp-openai",
-    "whatsapp-openai",
     "whatsapp-bot",
     "whatsapp-baileys",
     "baileys-md",
@@ -41,13 +40,5 @@
   "directories": {
     "lib": "lib",
     "src": "src"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Sansekai/Wa-OpenAI.git"
-  },
-  "bugs": {
-    "url": "https://github.com/Sansekai/Wa-OpenAI/issues"
-  },
-  "homepage": "https://github.com/Sansekai/Wa-OpenAI#readme"
+  }
 }
