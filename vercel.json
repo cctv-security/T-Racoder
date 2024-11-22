@@ -1,8 +1,15 @@
 {
-  "name": "vercel-node-app",
-  "version": "2.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  }
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    }
+  ]
 }
